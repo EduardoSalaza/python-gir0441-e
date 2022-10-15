@@ -1,0 +1,14 @@
+'''
+Descripccion:Lea un número y despliegue una secuencia de números de N hasta 1.
+Autor: Jesus Eduardo Salazar Venegas.
+'''
+#Bienvenida para el usuario
+print("¡Hola!, leeremos un numero y se desplegara la secuencia")
+
+#Se visualiza el codigo realizado 
+Num = int(input("Deberas de ingresar un numero: "))
+for Num in range(Num, 0, -1):
+    print(Num, end=",")
+ 
+#Se anexa la despedida
+print("¿Adios!... Estos fueron los valores")
