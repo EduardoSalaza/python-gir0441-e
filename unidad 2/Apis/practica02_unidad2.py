@@ -70,16 +70,3 @@ while True:
                 print("For Staus Code: " + str(json_status) + ", Refer to:")
                 print("https://developers.google.com/maps/documentation/embed/get-api-key")
                 print("************************************************************************\n")   
-
-#latlng=lat+','+lng Prueba que se realizo para testear si con esto el modulo urlib nos creaba bien la url
-#print(latlng)
-
-#Creación de la URL con apoyo del modulo 
-#url=main_api + urllib.parse.urlencode({"latln":latlng,"key":key})
-
-#Impresión de url, herramienta de apoyo para verificar que la impresión de URL sea correcta
-#print (url," \n")
-
-#Asignación de restful request a la variable url
-#url = (main_api+'latlng='+lat+","+lng+'&'+'key='+key)
-#print(url,'\n')
