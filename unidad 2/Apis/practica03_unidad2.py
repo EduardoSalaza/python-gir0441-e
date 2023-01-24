@@ -2,8 +2,6 @@
 Nombre de la API: Yelp fussión research
         Autor: jesus eduardo salazar
         Fecha: 6-ene-23
-Más documentación del uso de la API:
-        https://www.yelp.com/developers/documentation/v3/business_search
 '''
 
 #Importación de modulos existentes
