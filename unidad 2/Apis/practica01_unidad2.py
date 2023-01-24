@@ -74,13 +74,3 @@ while True:
                 print("For Staus Code: " + str(json_status) + ", Refer to:")
                 print("https://newsapi.org/docs")
                 print("************************************************************************\n")
-
-#Creación de la URL con apoyo del modulo 
-#url=main_api + urllib.parse.urlencode({"q":q,"from":fecha,"sortBy":sortBy,"apiKey":key})
-
-#Impresión de url, herramienta de apoyo para verificar que la impresión de URL sea correcta
-#print (url,'\n')
-
-#print(json_data) 
-#json_data = requests.get(url).json()
-#print(json_data) 
